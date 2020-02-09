@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  background-color: lightblue;
+}
+.container {
+  margin: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.left {
+  min-height: 100px;
+}
+.middle {
+  min-height: 200px;
+}
+
+.right {
+  min-height: 300px;
+}
