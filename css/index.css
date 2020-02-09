@@ -6,20 +6,14 @@
 }
 
 body {
-  background-color: ;
-  //background-image: url("../img/1.jpg");//
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: lightcyan;
 }
 
 .container {
-  // display: grid;
-  grid-template-columns: 20% 50% 30%; //
-
   margin: 10px;
   height: 90%;
   width: 90%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 header ul li {
@@ -32,16 +26,15 @@ header ul li {
 .menu {
   height: 870px;
   width: 15%;
-  background-color: ;
   line-height: 30px;
 }
 
 .middle {
-  transform: translate(20%, -100%);
+  transform: translate(20%, -105%);
   display: inline-block;
-  height: 870px;
+  height: 850px;
   width: 60%;
-  background-color: lightblue;
+  background-color: white;
   top: 10px;
 }
 .b2 {
@@ -75,4 +68,16 @@ header ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.b{
+  margin: 10px 10px;
+  border: 1px solid black;
+}
+
+.right {
+  height: 150px;
+  width: 20%;
+  background-color: lightcoral;
+  transform: translate(;
 }
